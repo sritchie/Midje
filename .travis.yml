@@ -4,5 +4,5 @@ rvm:
 env:
   - MIDJE_VERSION=1.3.0-SNAPSHOT
 script: bin/update-project-files $MIDJE_VERSION && rake fresh && \
-         sh bin/compatibility $MIDJE_VERSION
+         bin/compatibility $MIDJE_VERSION
 
