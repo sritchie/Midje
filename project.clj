@@ -13,7 +13,7 @@
   :url "https://github.com/marick/Midje"
   :dependencies ~(conj common-deps
                        '[org.clojure/clojure "1.3.0"])
-
+  
   :multi-deps {"1.2.0" [[org.clojure/clojure "1.2.0"]]
                "1.2.1" [[org.clojure/clojure "1.2.1"]]
                "1.3.0" [[org.clojure/clojure "1.3.0"]]
@@ -28,4 +28,6 @@
 ;  :warn-on-reflection true      ;; turn on to check production code for reflection
 
   ;; For Clojure snapshots
-  :repositories {"sonatype-oss-public" "https://oss.sonatype.org/content/groups/public/"})
+  :repositories {"sonatype-oss-public"
+                 "https://oss.sonatype.org/content/groups/public/"
+                 "stuart" "http://stuartsierra.com/maven2"})
