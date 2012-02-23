@@ -1,0 +1,8 @@
+language: ruby
+rvm:
+  - 1.9.2
+env:
+  - MIDJE_VERSION=1.3.0-SNAPSHOT
+script: bin/update-project-files $MIDJE_VERSION && rake upload && \
+         sh bin/compatibility $MIDJE_VERSION
+

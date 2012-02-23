@@ -1,3 +1,4 @@
+#!/bin/bash
 MIDJE_VERSION=$1
 if [ "" = "$MIDJE_VERSION" ]; then
    echo "No midje version given."

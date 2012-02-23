@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-$directories = %w{examples/adder-webapp examples/basic examples/cake-midje
+$directories = %w{examples/adder-webapp examples/basic
                   examples/compound-checkers examples/leiningen-midje
                   examples/leiningen-test examples/semi-sweet-examples
                   .} 

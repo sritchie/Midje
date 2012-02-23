@@ -15,7 +15,7 @@ lein_test_runs = %w{examples/semi-sweet-examples
 lein_midje_runs = %w{examples/basic
                     examples/adder-webapp
                     examples/compound-checkers
-                     examples/leiningen-midje}
+                    examples/leiningen-midje}
 
 cake_midje_runs = %w{}
 
